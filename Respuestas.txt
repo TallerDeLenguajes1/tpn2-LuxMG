@@ -1,0 +1,2 @@
+2.f. ¿Puede ver el archivo tp2_1_2.cpp? ¿Por qué?
+	No se puede ver ya que este está en la rama Opcion_2 y no en la rama master.
