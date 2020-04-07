@@ -6,7 +6,7 @@ int main(){
 	int aux;
 	double mt[N][M], *pMt = &mt[0][0];
 	
-	for(aux = 0; aux<(M*N); aux++){
+	for(aux = 0; aux<(M*N); aux++){ //teniendo en cuenta como se guardan en memoria las matrices
 		printf("%lf ", *pMt);
 		pMt++;
 		if(aux%N == N-1){ //de esta forma diferencia las filas
